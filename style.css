@@ -18,6 +18,14 @@ body{
     align-items: center;
 }
 
+
+p {
+    font-size: 0.25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
 header{
     font-size: 1rem;
 }
