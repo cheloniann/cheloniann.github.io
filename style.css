@@ -12,8 +12,7 @@ body{
 
 }
 
-.head-links,
-.foot-links{
+.links{
     font-size: 0.5rem;
     justify-content: center;
     align-items: center;
