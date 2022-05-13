@@ -1,13 +1,26 @@
 //selectors
 const dateButton = document.querySelector(".date-button");
 const dateList = document.querySelector(".date-list");
+const navButton = document.querySelector(".icon");
 
 //Event Listeners
 dateButton.addEventListener("click", addDate);
 dateList.addEventListener("click", deleteDate);
 document.addEventListener("DOMContentLoaded", getDates); //Checking if the page is loaded
+navButton.addEventListener("click", navBar);
+
 
 //Functions
+
+function navBar() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
 function addDate(event) {
     event.preventDefault();
     //Date DIV
