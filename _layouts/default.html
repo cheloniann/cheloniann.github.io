@@ -9,14 +9,20 @@
     <title>{{ page.title }}</title>
   </head>
   <body>
-    <nav>
-      <div class="links">
-        <ul class = "nav-list">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/plants.html">Plants</a></li>
-        </ul>
+    <div class="row navbkg">
+      <div class="span3 zeropadding text-align-center">
+        <div class="logo"><img src="images/logo-one.png" alt=""/></div>
       </div>
-    </nav>
+      <div class="span9 text-align-right zeropadding">
+        <nav>
+          <ul class="topnav" id="myTopnav">
+            <li><a class="active" href="#home">HOME</a></li>
+            <li><a href="/plants.html">Plant Tracker</a></li>
+            <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
     <div class="container">
 			
 			{{ content }}
