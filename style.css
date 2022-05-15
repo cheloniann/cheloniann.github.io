@@ -5,8 +5,8 @@
 }
 
 body{
-    background-image: linear-gradient(120deg, #059e00a8, #bbf874);
-    color: rgb(255, 255, 255);
+    background-image: linear-gradient(120deg, #cfcfcfa8, #c7c7c7);
+    color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
 
@@ -14,7 +14,7 @@ body{
 
 /* Navbar */
 .navbkg {
-	background-color: #0a0a0a;
+	background-color: #0a0a0a00;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -41,7 +41,7 @@ ul.topnav li a {
 	transition: 0.3s;
 }
 ul.topnav li a:hover, .active {
-	background-color: #7F0F34;
+	background-color: #000000;
 }
 ul.topnav li.icon {
 	display: none;
