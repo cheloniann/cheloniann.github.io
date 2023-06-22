@@ -11,8 +11,8 @@ dateButton.addEventListener("click", addDate);
 dateList.addEventListener("click", deleteDate);
 document.addEventListener("DOMContentLoaded", getDates); //Checking if the page is loaded
 navButton.addEventListener("click", navBar);
-affirmationButton.addEventListener("click", dailyAffirmation);
-randomButton.addEventListener("click", randomAffirmation);
+affirmationButton.addEventListener("submit", dailyAffirmation);
+randomButton.addEventListener("submit", randomAffirmation);
 
 
 //Functions
